@@ -33,17 +33,15 @@ if __name__ == "__main__":
     play_tarot()
 
     while True:
-        next = input("Do you have another question? (y/n):").lower()
+        next_question = input("Do you have another question? (y/n):").lower()
 
-        if next == "y":
+        if next_question == "y":
             play_tarot()
-        elif next == "n":
+        elif next_question == "n":
             print("Thank you for consulting the Oracle.\n"
                   "Blessings on your journey, and remember the power is always within You.\n"
                   "---------------------------------\n")
             break
-        break
-
 
      
 
